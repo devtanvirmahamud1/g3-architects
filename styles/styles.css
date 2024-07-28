@@ -12,7 +12,9 @@
     margin: 0;
     padding: 0;
 }
+
 /* Shared Style */
+
 .primary-color{
     color:#FF900E;
 }
@@ -29,6 +31,10 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .btn-primary{
     padding: 20px 30px;
     border-radius: 8px;
@@ -102,6 +108,31 @@
     margin-bottom: 20px;
 }
 
+/* Team Section style */
+
+.team{
+    margin-top: 80px;
+    align-items: center;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-content{
+    margin-left: 130px;
+}
+
+.team-title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.team-description{
+    font-size:1.2rem;
+    margin-bottom: 10px;
+    line-height:30px;
+}
 /* Responsive Media Queary */
 
 @media screen and (max-width:576px) {
