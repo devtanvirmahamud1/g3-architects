@@ -178,7 +178,7 @@ main{
 .year{
     background-color: #FF900E;
     height:150px;
-    width: 200px;
+    width: 300px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -186,8 +186,8 @@ main{
     justify-content: center;
     color: white;
     position: absolute;
-    margin-left: -80px;
-    margin-top: -90px;
+    margin-left: -60px;
+    margin-top: -131px;
 }
 
 .year> h1{
@@ -206,7 +206,7 @@ main{
 .fact-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 30px;
+    margin:30px;
  
 }
 .fact-card{
@@ -227,6 +227,37 @@ main{
     margin-top: 10px;
     font-size:1.2rem;
     font-weight: 600;
+}
+
+/* Sponsors Section */
+
+.sponsor-container{
+    text-align: center;
+    margin: 30px auto;
+}
+.sponsor-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.sponsor-description{
+    max-width:542px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Footer Section */
+footer{
+    text-align: center;
+    background-color:rgba(255, 244, 231, 1);
+    padding:30px;
+    margin-top:50px;
+    color: rgb(35, 36, 36);
 }
 /* Responsive Media Queary */
 
