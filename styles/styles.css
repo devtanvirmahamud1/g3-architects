@@ -35,6 +35,10 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
+.section-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
 .btn-primary{
     padding: 20px 30px;
     border-radius: 8px;
@@ -113,6 +117,7 @@ main{
 .team{
     margin-top: 80px;
     align-items: center;
+    margin-bottom: 30px;
 }
 .team-image{
     display: grid;
@@ -125,13 +130,103 @@ main{
 }
 
 .team-title{
-    font-size: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
 .team-description{
     font-size:1.2rem;
     margin-bottom: 10px;
     line-height:30px;
+}
+/* Feature section */
+
+.feature-section{
+    margin: 80px auto;
+    justify-content: space-between;
+}
+.left-content{
+    max-width: 586px;
+}
+.left-content >p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.left-content h1{
+    max-width: 468px; 
+}
+
+.features{
+    margin-top:30px;
+}
+.features-card{
+    padding: 30px;
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.479) ;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.freature-description{
+    line-height:25px;
+    margin-top: 15px;
+}
+
+.right-content{
+    position: relative;
+}
+.right-content-img{
+ 
+}
+.year{
+    background-color: #FF900E;
+    height:150px;
+    width: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -90px;
+}
+
+.year> h1{
+    font-size:2rem;
+}
+
+/* Fact Card Section */
+.some-facts{
+    margin: 120px auto;
+}
+.some-facts>p{
+    max-width:542px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+ 
+}
+.fact-card{
+    border: 1px solid #FF900E;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fact-number{
+    font-size:3rem;
+    margin-top: 10px;
+}
+.fact-name{
+    margin-top: 10px;
+    font-size:1.2rem;
+    font-weight: 600;
 }
 /* Responsive Media Queary */
 
