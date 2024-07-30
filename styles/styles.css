@@ -260,7 +260,9 @@ footer{
     color: rgb(35, 36, 36);
 }
 /* Responsive Media Queary */
-
+.hide{
+    display: none;
+}
 @media screen and (max-width:576px) {
     .navbar, .nav-link{
         flex-direction: column;
@@ -280,12 +282,27 @@ footer{
         flex-direction: column;
     }
 
-    .team-image{
+    .team-image, .fact-container{
         grid-template-columns: repeat(1, 1fr);
     }
 
     .team-content{
         margin: 20px 20px;
         text-align: center;
+    }
+    .section-title{
+        text-align: center;
+    }
+
+    .some-facts{
+        padding: 10px;
+        margin: 50px auto;
+    }
+    .some-facts>p{
+        text-align: center;
+    }
+    .fact-container{
+        justify-items: center;
+        gap:40px;
     }
 }
