@@ -143,19 +143,18 @@ main{
     margin: 80px auto;
     justify-content: space-between;
 }
-.section-title{
-    border-left: 5px solid #FF900E;
-    padding-left: 20px;
-}
+
 .left-content{
     max-width: 586px;
 }
-.freature-description{
+.feature-section-des{
     margin-top: 10px;
     line-height: 25px;
 }
 .left-content h1{
-    max-width: 468px; 
+    max-width: 468px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
 }
 
 .features{
@@ -176,9 +175,7 @@ main{
 .right-content{
     position: relative;
 }
-.right-content-img{
- 
-}
+
 .year{
     background-color: #FF900E;
     height:150px;
